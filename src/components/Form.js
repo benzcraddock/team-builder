@@ -40,7 +40,7 @@ export default function Form(props) {
                     />
                 </label>
                 <br></br>
-                <label>role
+                <label>Role
                     <select placeholder="Choose your role here." value={values.role} name="role" onChange={onChange} >
                         <option value=''>-- Select a Role --</option>
                         <option value="Front-End Developer">Front-End Developer</option>
@@ -50,7 +50,7 @@ export default function Form(props) {
                 </label>
                 <br></br>
                 <div className='submit'>
-                    <button disabled={!values.name || !values.email || !values.role}>submit</button>
+                    <button disabled={!values.name || !values.email || !values.role}>Submit</button>
                 </div>
             </div>
         </form>

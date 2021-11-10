@@ -18,7 +18,8 @@ export default function App() {
 
   return (
     <div className='App'>
-      <h1>Sign-up for the whitelist here 👀</h1>
+      <h1>The most hype NFT drop of 2021 🚀</h1>
+      <h2>Sign-up for application info on how you can join the team here 👀</h2>
       <Form 
         values={values}
         update={updateForm}
